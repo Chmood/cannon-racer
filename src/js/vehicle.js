@@ -558,7 +558,7 @@ var json_loader = new THREE.JSONLoader();
 var buggyModel;
 
 //json_loader.load( "../models/buggy.json", function( geometry, materials ) {
-json_loader.load( "../models/mustang.js", function( geometry, materials ) {
+json_loader.load( "https://raw.githubusercontent.com/Chmood/cannon-racer/master/src/models/mustang.js", function( geometry, materials ) {
 	// var mesh = new Physijs.BoxMesh(
 	// 	car,
 	// 	Physijs.createMaterial(

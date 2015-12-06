@@ -1,0 +1,33 @@
+{
+  "name": "cannon-racer",
+  "description": "",
+  "readme": "README.md",
+  "repository": "https://github.com/Chmood/cannon-racer",
+  "version": "0.0.1",
+  "dependencies": {},
+  
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-download": "*",
+    "gulp-rename": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-jshint": "*",
+    "gulp-uglify": "*",
+    "gulp-connect": "*",
+    "gulp-watch": "*",
+    "tiny-lr": "*"
+  },
+
+  "scripts": {
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint":  "node ./node_modules/gulp/bin/gulp.js lint"
+  }
+}
